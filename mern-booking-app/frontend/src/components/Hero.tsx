@@ -1,3 +1,4 @@
+
 import hero from "../assets/hero.png";
 
 const Hero = () =>{
@@ -7,4 +8,6 @@ const Hero = () =>{
          </div>
     )
 }
+  
+
 export default Hero;

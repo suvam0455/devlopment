@@ -20,9 +20,5 @@ import MainNav from "./MainNav"
             </div>
         </div>
     )
-
-
  }
-
-
  export default Header

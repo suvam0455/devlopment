@@ -8,7 +8,7 @@ const createCurrentUser = async (req: Request, res: Response) => {
         if (existingUser) {
             return res.status(200).send();
         }
-        const newUser = new User(req.body)
+        const newUser = new User(req.body);
         await newUser.save();
         res.status(201).json(newUser.toObject());
     } catch (error) {
